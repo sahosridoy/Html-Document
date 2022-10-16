@@ -25,10 +25,16 @@ If you type `!` into an html file in VS Code and then press enter, you get the f
 </body>
 </html>
 ```
+### Class elements
+
+`.className`
+```html 
+<div class="className"></div>
+```
 
 ### Nested elements
 
-The shortcut `nav>ul>li` creates:
+`nav>ul>li`
 ```html 
 <nav>
   <ul>
@@ -38,19 +44,33 @@ The shortcut `nav>ul>li` creates:
 ```
 
 ### Multiple elements
-
-The shortcut `li*5` creates:
+`ul>li*5`
 ```html 
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
+
+### Item numbering: $
+
+`ul>li.item$*5`
+```html 
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
 ```
 
 ### Tags with text
 
-The shortcut `a{Click Me}` creates:
+`a{Click Me}`
 ```html 
 <a href="">Click Me</a>
 ```
