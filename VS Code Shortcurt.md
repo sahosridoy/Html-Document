@@ -25,11 +25,22 @@ If you type `!` into an html file in VS Code and then press enter, you get the f
 </body>
 </html>
 ```
-### Class elements
-
-`.className`
+### Class
+`div.className`
 ```html 
 <div class="className"></div>
+```
+
+### Id
+`div#idName`
+```html 
+<div id="idName"></div>
+```
+
+### Id & Class
+`div#idName.className`
+```html 
+<div id="idName" class="classNmae"></div>
 ```
 
 ### Nested elements
